@@ -24,12 +24,12 @@ In the router you also need to add the css-stylesheet flashmessages.css
 
 // Test Route $app->router->add('', function() use ($app) {
 
-$app->theme->setTitle("Testing FlashMEssages"); 
-
-$app->flashMessages->addMessage('Check!', 'success');
-$app->flashMessages->addMessage('Information', 'info');
-$app->flashMessages->addMessage('Warning!', 'warning');
-$app->flashMessages->addMessage('Error', 'error');
+    $app->theme->setTitle("Flash messages");
+    $app->theme->addStylesheet('css/flashmessages.css');
+    $app->flashMessages->addMessage('<i class="fa fa-check"></i> CHECK!', 'success');
+    $app->flashMessages->addMessage('<i class="fa fa-info"></i> Information', 'info');
+    $app->flashMessages->addMessage('<i class="fa fa-exclamation-triangle"></i> Warning!', 'warning');
+    $app->flashMessages->addMessage('<i class="fa fa-exclamation-circle"></i> Something went wrong!', 'error');
 
 //Adds the view to display the messages
 
