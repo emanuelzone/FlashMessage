@@ -1,6 +1,6 @@
 <?php
 
-namespace Anax\FlashMessage;
+namespace Ezon\FlashMessage;
  
 /* START FLASH MESSAGE CONTROLLER */
 
