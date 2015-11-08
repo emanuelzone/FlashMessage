@@ -1,9 +1,8 @@
 {
     "name": "mos/cform",    
-    "type": "library",
-    "description": "Classes for HTML Forms",
-    "keywords": ["html", "forms", "education"],
-    "homepage": "http://dbwebb.se/",
+    "description": "Message controller for ANAX-MVC",
+    "keywords": ["CFlashmessage", "Flashmessage"],
+    "homepage": "http://emanuelzone.se",
     "license": "MIT",
     "authors": [
         {
