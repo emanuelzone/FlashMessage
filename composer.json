@@ -1,5 +1,5 @@
 {
-    "name": "mos/cform",    
+    "name": "ezon/FlashMessageControl",    
     "description": "Message controller for ANAX-MVC",
     "keywords": ["CFlashmessage", "Flashmessage"],
     "homepage": "http://emanuelzone.se",
