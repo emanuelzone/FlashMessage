@@ -1,14 +1,15 @@
 {
-    "name": "ezon/FlashMessageControl",    
-    "description": "Message controller for ANAX-MVC",
-    "keywords": ["CFlashmessage", "Flashmessage"],
-    "homepage": "http://emanuelzone.se",
+    "name": "mos/cform",    
+    "type": "library",
+    "description": "Classes for HTML Forms",
+    "keywords": ["html", "forms", "education"],
+    "homepage": "http://dbwebb.se/",
     "license": "MIT",
     "authors": [
         {
-            "name": "Martin Emanuelsson,
-            "email": "martin@emanuelzone.se",
-            "homepage": "http://emanuelzone.se",
+            "name": "Mikael Roos",
+            "email": "me@mikaelroos.se",
+            "homepage": "http://mikaelroos.se",
             "role": "Developer"
         }
     ],
@@ -16,6 +17,6 @@
         "php": ">=5.4"
     },
     "autoload": {
-        "psr-4": { "ezon\\": "src/" }
+        "psr-4": { "Mos\\": "src/" }
     }
 }
