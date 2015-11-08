@@ -26,13 +26,13 @@ In the router you also need to add the css-stylesheet flashmessages.css
 
 $app->theme->setTitle("Testing FlashMEssages"); 
 
-//Code to test each message, including a default message(Test). 
 $app->flashMessages->addMessage('Check!', 'success');
 $app->flashMessages->addMessage('Information', 'info');
 $app->flashMessages->addMessage('Warning!', 'warning');
 $app->flashMessages->addMessage('Error', 'error');
 
 //Adds the view to display the messages
+
 $app->views->add('flash/flash', [ 
     'content' => $app->flashMessages->getFlashMessages(),
     ]); 
