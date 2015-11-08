@@ -10,10 +10,8 @@ You can easily remove or add your own messages, but you must specify them in the
 
 Installation
 
-1 --> To install, I recommend composer.
-2 --> Add this line into composer.json file: "require": {"ezon/flashmessage": "dev-master"}
-
----
+1. To install, I recommend composer.
+2. Add this line into composer.json file: "require": {"ezon/flashmessage": "dev-master"}
 
 #Access the controller in your frontcontroller:
 
@@ -21,20 +19,18 @@ $di->setShared('flashMessages', function() use ($di){ $flashMessages = new Ezon\
 
 In the router you also need to add the css-stylesheet flashmessages.css
 
----
 
 #Add the route in your front controller:
 
 // Test Route $app->router->add('', function() use ($app) {
 
-$app->theme->setTitle("Testing flash"); 
+$app->theme->setTitle("Testing FlashMEssages"); 
 
 //Code to test each message, including a default message(Test). 
-$app->flashMessages->addMessage('Godkänt!', 'success');
+$app->flashMessages->addMessage('Check!', 'success');
 $app->flashMessages->addMessage('Information', 'info');
-$app->flashMessages->addMessage('Varning!', 'warning');
+$app->flashMessages->addMessage('Warning!', 'warning');
 $app->flashMessages->addMessage('Error', 'error');
-$app->flashMessages->addMessage('Test', 'Test');
 
 //Adds the view to display the messages
 $app->views->add('flash/flash', [ 
