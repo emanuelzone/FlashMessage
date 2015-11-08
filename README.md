@@ -17,7 +17,7 @@ You can easily remove or add your own messages, but you must specify them in the
 
 $di->setShared('flashMessages', function() use ($di){ $flashMessages = new Ezon\FlashMessage\FlashController($di); return $flashMessages; }); 
 
-In the router you also need to add the css-stylesheet flashmessages.css. Make sure that the name in the css corresponds to the name in the addMessage function.
+In the router you also need to add the css-stylesheet flashmessages.css. Make sure that the name in the css corresponds to the name in the addMessage function if you decide to add a new message.
 
 
 #Add the route in your front controller:
