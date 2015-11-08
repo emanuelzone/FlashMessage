@@ -1,0 +1,21 @@
+{
+    "name": "ezon/FlashMessageControl",    
+    "description": "Message controller for ANAX-MVC",
+    "keywords": ["CFlashmessage", "Flashmessage"],
+    "homepage": "http://emanuelzone.se",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Emanuelsson,
+            "email": "martin@emanuelzone.se",
+            "homepage": "http://emanuelzone.se",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "psr-4": { "ezon\\": "src/" }
+    }
+}
