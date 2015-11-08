@@ -1,5 +1,5 @@
 {
-    "name": "ezon/FlashMessageControl",    
+    "name": "ezon/flashmessagecontrol",    
     "description": "Message controller for ANAX-MVC",
     "keywords": ["CFlashmessage", "Flashmessage"],
     "homepage": "http://emanuelzone.se",
