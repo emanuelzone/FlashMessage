@@ -17,7 +17,7 @@ Installation
 
 $di->setShared('flashMessages', function() use ($di){ $flashMessages = new Ezon\FlashMessage\FlashController($di); return $flashMessages; }); 
 
-In the router you also need to add the css-stylesheet flashmessages.css
+In the router you also need to add the css-stylesheet flashmessages.css. Make sure that the name in the css corresponds to the name in the addMessage function.
 
 
 #Add the route in your front controller:
