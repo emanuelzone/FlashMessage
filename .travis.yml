@@ -4,6 +4,8 @@ php:
     - 5.5
     - 5.4
     - hhvm
+    
+sudo: required
 
 before_script:
     - wget https://scrutinizer-ci.com/ocular.phar
