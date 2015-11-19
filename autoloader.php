@@ -34,4 +34,4 @@ spl_autoload_register(
         if (file_exists($file)) {
             include $file;
         }
-    }
+    });
