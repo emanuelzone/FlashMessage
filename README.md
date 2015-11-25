@@ -1,3 +1,5 @@
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/?branch=master)
+
 # FlashMessageControl
 
 Hello there, 
