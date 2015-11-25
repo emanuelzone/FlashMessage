@@ -1,4 +1,4 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/?branch=master) [![Code Coverage](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/?branch=master) [![Build Status](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/badges/build.png?b=master)](https://scrutinizer-ci.com/g/emanulzone/FlashMessage/build-status/master) [![Build Status](https://travis-ci.org/emanulzone/FlashMessage.svg?branch=master)](https://travis-ci.org/emanulzone/FlashMessage)
 
 # FlashMessageControl
 
